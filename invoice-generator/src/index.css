@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(224, 224, 224);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main-container{
+  display: flex;
+  justify-content: center;
+}
+.invoice-table tr td{
+  border-style: solid;
+    border-width: 1px;
+}
+
+.invoice-table{
+  border-style: solid;
+  margin-bottom: 0px;
+}
+
+.sales-container{
+  background-color: #ffffff;
+}
+.address p{
+  margin: 0;
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* .purchase-details{
+  width: auto;
+}
+.purchase-details tr td{
+  width: auto;
+} */
