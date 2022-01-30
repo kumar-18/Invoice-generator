@@ -7,15 +7,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(224, 224, 224);
 }
-
+p{
+  font-size: 12px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.main-container{
+ .main-container{
   display: flex;
   justify-content: center;
-}
+}  
 .invoice-table tr td{
   border-style: solid;
     border-width: 1px;
@@ -23,6 +25,7 @@ code {
 
 .invoice-table{
   border-style: solid;
+  border-width: 1px;
   margin-bottom: 0px;
 }
 
@@ -35,8 +38,29 @@ code {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /* .purchase-details{
-  width: auto;
+  padding-top: 80px;
 }
 .purchase-details tr td{
   width: auto;
 } */
+td{
+  vertical-align: top;
+  font-size: 12px;
+}
+tr.noBorder td {
+  border-top-style: none;
+  border-bottom-style: none;
+}
+.borderTopStyle{
+  border-width: 1px !important;
+  border-top-style: solid !important;
+}
+.noBorderRow,.noBorderRow td{
+  border: none !important;
+}
+.btns-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

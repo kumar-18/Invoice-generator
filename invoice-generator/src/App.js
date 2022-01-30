@@ -1,9 +1,13 @@
-import InvoiceGenerator from './Components/InvoiceGenerator/invoice-generator';
+
+import Buttons from "./Components/InvoiceGenerator/buttons";
+import "../src/index.css"
 
 function App() {
   return (
     <div className="App">
-      <InvoiceGenerator />
+      <div className="m-5 btns-container">
+        <Buttons />
+      </div>
     </div>
   );
 }
